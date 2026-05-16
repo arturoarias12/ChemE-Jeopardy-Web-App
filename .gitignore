@@ -1,0 +1,27 @@
+# File: .gitignore
+# Description: Local-only and generated files that should not be uploaded to GitHub.
+# Author: Arturo Arias
+# Last updated: 2026-05-04
+
+out/
+other_files/
+tmp/
+arturo_test.py
+tests.py
+.env
+.env.local
+project_report.html
+swiss_fixtures.py
+cheme_jeopardy_rules_and_instructions.pdf
+swiss_round_1.csv
+swiss_round_2.csv
+swiss_round_3.csv
+swiss_round_4.csv
+swiss_round_5.csv
+swiss_round_6.csv
+swiss_round_1.xlsx
+swiss_round_2.xlsx
+swiss_round_3.xlsx
+swiss_round_4.xlsx
+swiss_round_5.xlsx
+swiss_round_6.xlsx
