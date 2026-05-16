@@ -35,9 +35,7 @@ jobs:
         uses: azure/container-apps-deploy-action@v2
         with:
           appSourcePath: ${{ github.workspace }}
-          registryUrl: caf51efdbf33acr.azurecr.io
-          registryUsername: ${{ secrets.CHEMEJEOPARDY_REGISTRY_USERNAME }}
-          registryPassword: ${{ secrets.CHEMEJEOPARDY_REGISTRY_PASSWORD }}
+          acrName: caf51efdbf33acr
           containerAppName: cheme-jeopardy
           resourceGroup: rg-cheme-jeopardy
           imageToBuild: caf51efdbf33acr.azurecr.io/cheme-jeopardy:${{ github.sha }}
